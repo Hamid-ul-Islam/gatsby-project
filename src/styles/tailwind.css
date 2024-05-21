@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .writing-mode-rtl {
+    writing-mode: rtl;
+  }
+
+  .writing-mode-ltr {
+    writing-mode: ltr;
+  }
+
+  .writing-mode-vertical-rl {
+    writing-mode: vertical-rl;
+  }
+
+  .writing-mode-vertical-lr {
+    writing-mode: vertical-lr;
+  }
+
+  .bg-gradient-orange {
+    background: linear-gradient(89.87deg, #f99300 0.11%, #fb5600 99.9%);
+  }
+  .bg-gradient-orangeDark {
+    background: linear-gradient(270deg, #fb5600 0%, #ef681d 100%);
+  }
+  .bg-mosaic {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32px' height='32px' viewBox='0 0 32 32'%3E%3Crect x='0' y='0' width='16' height='16' fill='black' /%3E%3Crect x='0' y='16' width='16' height='16' fill='white' /%3E%3Crect x='16' y='16' width='16' height='16' fill='black' /%3E%3Crect x='16' y='0' width='16' height='16' fill='white' /%3E%3C/svg%3E");
+  }
+  .text-last-end {
+    text-align-last: end;
+  }
+  .hero-short-gradient-blue,
+  .hero__overlay {
+    background-image: linear-gradient(
+      359.99deg,
+      rgba(0, 174, 234, 0.5) -1.05%,
+      rgba(0, 0, 0, 0) 47.06%
+    );
+  }
+}
+
+@layer base {
+  .font-itcGothic-book {
+    @apply font-itcGothic font-light;
+  }
+
+  .font-itcGothic-medium {
+    @apply font-itcGothic font-medium;
+  }
+
+  .font-itcGothic-bold {
+    @apply font-itcGothic font-bold;
+  }
+  .nav-shadow {
+    text-shadow: 0px 2px 16px #4bd4ff;
+  }
+  .bg-orange-gradient {
+    background: linear-gradient(89.87deg, #f99300 0.11%, #fb5600 99.9%);
+  }
+}
+
+ul {
+  list-style-type: disc;
+}
+li {
+  margin-left: 24px;
+}

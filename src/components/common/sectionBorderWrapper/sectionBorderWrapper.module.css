@@ -1,0 +1,18 @@
+.border__container {
+  mask-image: url(./mask.png);
+  mask-size: 1600px 2880px;
+  mask-repeat: repeat-x;
+  mask-position: top left;
+
+  -webkit-mask-image: url(./mask.png);
+  -webkit-mask-size: 1600px 2880px;
+  -webkit-mask-repeat: repeat-x;
+  -webkit-mask-position: top left;
+}
+
+.border__divider {
+  background-image: url(./bolt-cropped.png);
+  background-size: 1600px 150px;
+  background-repeat: repeat-x;
+  background-position: left top;
+}

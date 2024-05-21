@@ -1,0 +1,370 @@
+html {
+  min-height: 100vh;
+  background-color: black;
+  color: black;
+}
+
+body,
+#___gatsby,
+#gatsby-focus-wrapper,
+#gatsby-focus-wrapper > div {
+  min-height: 100vh;
+  height: 100%;
+}
+
+* {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+body {
+  background: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+/* 
+.ctct-inline-form {
+  width: 100%;
+  transition: all 2s linear;
+}
+.ctct-form-embed.form_2 .ctct-form-defaults {
+  background-color: transparent !important;
+  padding: 0px;
+}
+#gdpr_text {
+  display: none !important;
+}
+#ctct_form_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#ctct_form_2 > button {
+  margin-left: 16px;
+  padding: 12px 24px;
+
+  background: linear-gradient(89.87deg, #f99300 0.11%, #fb5600 99.9%);
+  border: 2px solid #f4b285;
+  border-radius: 12px;
+  font-family: Tactic-Ext, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  font-style: italic;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  height: 60px;
+}
+
+#success_message_2 > h2 {
+  text-align: center;
+  color: white;
+  font-family: Tactic-Ext, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  font-style: italic;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 1;
+  text-shadow: 0px 2px 16px #4bd4ff;
+}
+
+#success_message_2 > p {
+  text-align: center;
+  color: white;
+  font-family: Tactic-Ext, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  font-style: italic;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 1;
+  text-shadow: 0px 2px 16px #4bd4ff;
+}
+
+.ctct-form-errorMessage {
+  display: none !important;
+}
+
+.ctct-form-footer {
+  display: none;
+}
+
+#email_address_label_2 {
+  display: none;
+}
+
+#email_address_2 {
+  height: 100%;
+  width: 390px;
+  font-size: 18px !important;
+  line-height: 1.75rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: itc-avant-garde-gothic-pro, ui-sans-serif, system-ui,
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-right: 26px;
+  padding-left: 26px;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  border-color: black;
+  height: 60px;
+}
+
+#email_address_2:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.ctct-form-field {
+  margin: 0px !important;
+  height: 100%;
+  width: 390px;
+}
+
+@media (max-width: 768px) {
+  #ctct_form_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  #email_address_2 {
+    margin-bottom: 16px;
+    width: 100%;
+  }
+  .ctct-form-field {
+    width: 100%;
+  }
+  #ctct_form_2 > button {
+    margin-left: 0px;
+  }
+} */
+/* 
+.g-recaptcha {
+  display: none !important;
+} */
+/* 
+.ctct-inline-form {
+  width: 100%;
+  transition: all 2s linear;
+}
+.ctct-form-embed.form_3 .ctct-form-defaults {
+  background-color: transparent !important;
+  padding: 0px;
+}
+#gdpr_text {
+  display: none !important;
+}
+#ctct_form_3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#ctct_form_3 > button {
+  margin-left: 16px;
+  padding: 12px 24px;
+
+  background: linear-gradient(89.87deg, #f99300 0.11%, #fb5600 99.9%);
+  border: 2px solid #f4b285;
+  border-radius: 12px;
+  font-family: Tactic-Ext, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  font-style: italic;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  height: 60px;
+}
+
+#success_message_3 > h2 {
+  text-align: center;
+  color: white;
+  font-family: Tactic-Ext, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  font-style: italic;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 1;
+  text-shadow: 0px 2px 16px #4bd4ff;
+}
+
+#success_message_3 > p {
+  text-align: center;
+  color: white;
+  font-family: Tactic-Ext, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  font-style: italic;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 1;
+  text-shadow: 0px 2px 16px #4bd4ff;
+}
+
+.ctct-form-errorMessage {
+  display: none !important;
+}
+
+.ctct-form-footer {
+  display: none;
+}
+
+#email_address_label_3 {
+  display: none;
+}
+
+#email_address_3 {
+  height: 100%;
+  width: 390px;
+  font-size: 18px !important;
+  line-height: 1.75rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: itc-avant-garde-gothic-pro, ui-sans-serif, system-ui,
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-right: 26px;
+  padding-left: 26px;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  border-color: black;
+  height: 60px;
+}
+
+#email_address_3:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.ctct-form-field {
+  margin: 0px !important;
+  height: 100%;
+  width: 390px;
+}
+
+@media (max-width: 768px) {
+  #ctct_form_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  #email_address_3 {
+    margin-bottom: 16px;
+    width: 100%;
+  }
+  .ctct-form-field {
+    width: 100%;
+  }
+  #ctct_form_3 > button {
+    margin-left: 0px;
+  }
+} */
+/* 
+.g-recaptcha {
+  display: none !important;
+} */
+
+.spacer {
+  width: 0;
+  transition: all 0.4s ease;
+}
+
+.panel-header:hover .spacer {
+  width: 100%;
+}
+.panel:not(.closed) .panel-header .spacer {
+  display: none;
+}
+
+ul ul {
+  list-style-type: circle;
+}
+
+ul ul ul {
+  list-style-type: square;
+}
+
+ul ul ul ul {
+  list-style-type: circle;
+}
+
+ul ul ul ul ul {
+  list-style-type: square;
+}
+
+ol ol {
+  list-style-type: upper-latin !important;
+}
+
+ol ol ol {
+  list-style-type: upper-roman !important;
+}
+
+ol ol ol ol {
+  list-style-type: lower-latin !important;
+}
+
+ol ol ol ol ol {
+  list-style-type: lower-roman !important;
+}

@@ -1,0 +1,6 @@
+.bg {
+  background-image: url(./newsletter-bg.png);
+  background-size: 100%;
+  background-repeat: repeat-y;
+  background-position: right top;
+}

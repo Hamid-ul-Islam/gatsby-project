@@ -1,0 +1,12 @@
+node_modules
+coverage
+dist
+build
+.build
+.cache
+public
+.public
+__mocks__
+.out
+.storybook
+.node_modules

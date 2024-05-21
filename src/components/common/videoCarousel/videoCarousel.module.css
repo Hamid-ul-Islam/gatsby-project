@@ -1,0 +1,16 @@
+.texture__container {
+  background-image: url(./pattern.png);
+  background-repeat: repeat;
+  background-size: 125%;
+}
+@media (max-width: 768px) {
+  .texture__container {
+    background-size: 300%;
+  }
+}
+
+.bottom_image {
+  background-image: url(./carousel-bottom.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}

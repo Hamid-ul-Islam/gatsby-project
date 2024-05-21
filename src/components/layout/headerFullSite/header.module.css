@@ -1,0 +1,81 @@
+.header_glow {
+  filter: drop-shadow(0px 0px 24px rgba(251, 86, 0, 0.75));
+}
+
+.header_background {
+  width: calc(100% - 6px);
+  left: 3px;
+  top: 3px;
+  position: absolute;
+  height: calc(100% - 6px);
+  background: linear-gradient(270deg, #fb5600 0%, #f99300 72.63%);
+  clip-path: polygon(calc(0% + 25px) 0, 100% 0, calc(100% - 25px) 100%, 0 100%);
+}
+
+.header_background_border {
+  clip-path: polygon(calc(0% + 25px) 0, 100% 0, calc(100% - 25px) 100%, 0 100%);
+  background-color: #f7c6a5;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  height: 100%;
+}
+
+.header_scroll_nav_background {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  height: calc(100% - 6px);
+  width: calc(100% - 6px);
+  background-image: linear-gradient(270deg, #fb5600 0%, #f99300 73%);
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 20px),
+    285px calc(100% - 20px),
+    257px 100%,
+    0 100%
+  );
+}
+
+.header_scroll_nav_border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #f7c6a5;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 20px),
+    290px calc(100% - 20px),
+    262px 100%,
+    0 100%
+  );
+}
+
+@media (min-width: 768px) {
+  .header_scroll_nav_background {
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% calc(100% - 20px),
+      335px calc(100% - 20px),
+      307px 100%,
+      0 100%
+    );
+  }
+  .header_scroll_nav_border {
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% calc(100% - 20px),
+      340px calc(100% - 20px),
+      312px 100%,
+      0 100%
+    );
+  }
+}
